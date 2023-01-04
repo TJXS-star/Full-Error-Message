@@ -1,5 +1,5 @@
 Executing Gradle task: build
-Build info: MCreator 2022.3.48217, forge-1.19.2, 64-bit, 6086 MB, Windows 10, JVM 17.0.3, JAVA_HOME: C:\Program Files\Pylo\MCreator\jdk, started on: 2023-01-04-13:54:18
+Build info: MCreator 2022.3.48217, forge-1.19.2, 64-bit, 6086 MB, Windows 10, JVM 17.0.3, JAVA_HOME: C:\Program Files\Pylo\MCreator\jdk, started on: 2023-01-04-14:36:08
  
 > Configure project :
 The code of this workspace uses official obfuscation mappings provided by Mojang. These mappings fall under their associated license you should be fully aware of.
@@ -225,4 +225,4 @@ BUILD FAILED in 3s
 1 actionable task: 1 executed
  
 BUILD FAILED
-Task completed in 5 seconds
+Task completed in 13 seconds
