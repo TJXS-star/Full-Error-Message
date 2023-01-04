@@ -1,0 +1,228 @@
+Executing Gradle task: build
+Build info: MCreator 2022.3.48217, forge-1.19.2, 64-bit, 6086 MB, Windows 10, JVM 17.0.3, JAVA_HOME: C:\Program Files\Pylo\MCreator\jdk, started on: 2023-01-04-13:54:18
+ 
+> Configure project :
+The code of this workspace uses official obfuscation mappings provided by Mojang. These mappings fall under their associated license you should be fully aware of.
+(c) 2020 Microsoft Corporation. These mappings are provided "as-is" and you bear the risk of using them. You may copy and use the mappings for development purposes,
+but you may not redistribute the mappings complete and unmodified. Microsoft makes no warranties, express or implied, with respect to the mappings provided here.
+Use and modification of this document or the source code (in any form) of Minecraft: Java Edition is governed by the Minecraft End User License Agreement available
+at https://account.mojang.com/documents/minecraft_eula.
+ 
+> Task :compileJava FAILED
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:4: error: cannot find symbol import net.mcreator.morphmod.MorphMod;
+    ^
+ symbol: class MorphMod
+ location: package net.mcreator.morphmod
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:5: error: package net.minecraft.entity does not exist import net.minecraft.entity.Entity;
+    ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:6: error: package net.minecraft.entity.player does not exist import net.minecraft.entity.player.PlayerEntity;
+     ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:7: error: package net.minecraft.client.gui.widget does not exist import net.minecraft.client.gui.widget.Widget;
+      ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:3: error: cannot find symbol import net.mcreator.morphmod.MorphMod;
+    ^
+ symbol: class MorphMod
+ location: package net.mcreator.morphmod
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:4: error: package net.minecraft.client.gui.widget does not exist import net.minecraft.client.gui.widget.Widget;
+      ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:5: error: package net.minecraft.entity does not exist import net.minecraft.entity.Entity;
+    ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:6: error: package net.minecraft.entity.player does not exist import net.minecraft.entity.player.PlayerEntity;
+     ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:3: error: cannot find symbol import net.mcreator.morphmod.MorphMod;
+    ^
+ symbol: class MorphMod
+ location: package net.mcreator.morphmod
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:4: error: package net.minecraft.entity does not exist import net.minecraft.entity.Entity;
+    ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:5: error: package net.minecraft.entity.player does not exist import net.minecraft.entity.player.PlayerEntity;
+     ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:6: error: package net.minecraft.client.gui.widget does not exist import net.minecraft.client.gui.widget.Widget;
+      ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:11: error: cannot find symbol public static void updatePlayerMorph(Entity playerEntity) {
+      ^
+ symbol: class Entity
+ location: class PlayerInfoProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:6: error: cannot find symbol import net.mcreator.morphmod.MorphMod;
+    ^
+ symbol: class MorphMod
+ location: package net.mcreator.morphmod
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:7: error: package net.minecraft.entity does not exist import net.minecraft.entity.Entity;
+    ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:8: error: package net.minecraft.entity.player does not exist import net.minecraft.entity.player.PlayerEntity;
+     ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:9: error: package net.minecraft.client.gui.widget does not exist import net.minecraft.client.gui.widget.Widget;
+      ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:16: error: cannot find symbol  String playerName = MorphMod.getInput("Enter the name of the player you want to morph into: ");
+    ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:18: error: cannot find symbol  PlayerEntity playerEntity = MorphMod.getPlayerByName(playerName);
+  ^
+ symbol: class PlayerEntity
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:18: error: cannot find symbol  PlayerEntity playerEntity = MorphMod.getPlayerByName(playerName);
+     ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:21: error: cannot find symbol  MorphMod.showError("Player not found");
+  ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:25: error: cannot find symbol  MorphMod.morphPlayerIntoEntity(playerEntity);
+  ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:27: error: cannot find symbol  MorphMod.setPlayerNameTag(playerEntity.getName());
+  ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:30: error: cannot find symbol  String mobName = MorphMod.getInput("Enter the name of the mob you want to morph into: ");
+    ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:32: error: cannot find symbol  Entity mobEntity = MorphMod.getMobByName(mobName);
+  ^
+ symbol: class Entity
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:32: error: cannot find symbol  Entity mobEntity = MorphMod.getMobByName(mobName);
+    ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:35: error: cannot find symbol  MorphMod.showError("Mob not found");
+  ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:39: error: cannot find symbol  MorphMod.morphPlayerIntoEntity(mobEntity);
+  ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphPProcedure.java:41: error: cannot find symbol  MorphMod.hidePlayerNameTag();
+  ^
+ symbol: variable MorphMod
+ location: class MorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:13: error: cannot find symbol  Widget morphsButton = MorphMod.createButton("Morphs", "blue");
+ ^
+ symbol: class Widget
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:13: error: cannot find symbol  Widget morphsButton = MorphMod.createButton("Morphs", "blue");
+    ^
+ symbol: variable MorphMod
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:14: error: cannot find symbol  MorphMod.addToHealthBarGUI(morphsButton);
+ ^
+ symbol: variable MorphMod
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:16: error: lambda expression not expected here  morphsButton.onPress = () -> {
+    ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:17: error: cannot find symbol  Widget playersButton = MorphMod.createButton("Players", "blue");
+  ^
+ symbol: class Widget
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:17: error: cannot find symbol  Widget playersButton = MorphMod.createButton("Players", "blue");
+     ^
+ symbol: variable MorphMod
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:18: error: cannot find symbol  Widget mobsButton = MorphMod.createButton("Mobs", "blue");
+  ^
+ symbol: class Widget
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:18: error: cannot find symbol  Widget mobsButton = MorphMod.createButton("Mobs", "blue");
+    ^
+ symbol: variable MorphMod
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:19: error: cannot find symbol  MorphMod.addToHealthBarGUI(playersButton);
+  ^
+ symbol: variable MorphMod
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:20: error: cannot find symbol  MorphMod.addToHealthBarGUI(mobsButton);
+  ^
+ symbol: variable MorphMod
+ location: class MorphUIProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:22: error: lambda expression not expected here  playersButton.onPress = () -> MorphPProcedure.morphIntoEntity("player");
+     ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\MorphUIProcedure.java:24: error: lambda expression not expected here  mobsButton.onPress = () -> MorphPProcedure.morphIntoEntity("mob");
+    ^
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:13: error: cannot find symbol  MorphMod.setTabListName(playerEntity.getName());
+ ^
+ symbol: variable MorphMod
+ location: class PlayerInfoProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:15: error: cannot find symbol  MorphMod.setChatName(playerEntity.getName());
+ ^
+ symbol: variable MorphMod
+ location: class PlayerInfoProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:17: error: cannot find symbol  MorphMod.onPlayerLeave(() -> MorphMod.setJoinGameMessage(playerEntity.getName() + " left the game"));
+ ^
+ symbol: variable MorphMod
+ location: class PlayerInfoProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\PlayerInfoProcedure.java:17: error: cannot find symbol  MorphMod.onPlayerLeave(() -> MorphMod.setJoinGameMessage(playerEntity.getName() + " left the game"));
+     ^
+ symbol: variable MorphMod
+ location: class PlayerInfoProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:16: error: cannot find symbol Entity originalEntityData = MorphMod.getOriginalEntityData();
+^
+ symbol: class Entity
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:16: error: cannot find symbol Entity originalEntityData = MorphMod.getOriginalEntityData();
+    ^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:18: error: cannot find symbol MorphMod.morphPlayerIntoEntity(originalEntityData);
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:20: error: cannot find symbol MorphMod.showPlayerNameTag();
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:21: error: cannot find symbol MorphMod.setChatName(originalEntityData.getName());
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:22: error: cannot find symbol MorphMod.setTabListName(originalEntityData.getName());
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:24: error: cannot find symbol MorphMod.setJoinGameMessage("%player% joined the game");
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:32: error: cannot find symbol for (int i = 0; i < MorphMod.getMobTypes().size(); i++) {
+   ^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:34: error: cannot find symbol mobList.add(MorphMod.getMobTypes().get(i).getName());
+  ^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:45: error: cannot find symbol for (int i = 0; i < MorphMod.getPlayerData().size(); i++) {
+   ^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:47: error: cannot find symbol playerList.add(MorphMod.getPlayerData().get(i).getName());
+   ^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:55: error: cannot find symbol MorphMod.onPlayerJoin(() -> MorphUIProcedure.createMorphGUI());
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+C:\Users\Tyrell Scott\MCreatorWorkspaces\morph_mod\src\main\java\net\mcreator\morphmod\procedures\UnmorphPProcedure.java:57: error: cannot find symbol MorphMod.registerChatCommand("revert", () -> UnmorphPProcedure.revertPlayer());
+^
+ symbol: variable MorphMod
+ location: class UnmorphPProcedure
+58 errors
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+* Get more help at https://help.gradle.org
+BUILD FAILED in 3s
+1 actionable task: 1 executed
+ 
+BUILD FAILED
+Task completed in 5 seconds
